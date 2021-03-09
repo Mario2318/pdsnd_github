@@ -8,9 +8,12 @@ bykeshares
 script that takes in raw input to create an interactive experience in the terminal that answers questions #about the dataset
 
 ### Files used
-bikeshare.py
+bikeshare.py: python file with the code
+
 .gitignore
+
 README.md
+
 
 ### Credits
 #https://pandas.pydata.org/pandas-docs/stable/reference/io.html (general guidelines)
