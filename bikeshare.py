@@ -19,7 +19,7 @@ def get_filters():
     """
 
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # TO DO: get user input for city (chicago, new york city, washington).
     cities = ['chicago', 'new york city', 'washington']
     while 1:
         city = str(input('Would you like to see data for Chicago, New York or Washinton? \n')).lower()
@@ -147,7 +147,7 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-    # [Mario Sanz:] if we are filtering by it does no make sense
+    # [MS] if we are filtering by it does no make sense
     popular_month = df['month'].mode()[0]
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     print('Most popular month is',months[popular_month-1])
