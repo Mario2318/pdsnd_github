@@ -10,7 +10,7 @@ script that takes in raw input to create an interactive experience in the termin
 ### Files used
 bikeshare.py: python file with the code
 
-.gitignore
+.gitignoref: .csv files ignored
 
 README.md
 
